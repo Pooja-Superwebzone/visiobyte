@@ -73,13 +73,6 @@ export default function Header() {
                 Our Work
               </Link>
               <Link
-                href="#pricing"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
-              <Link
                 href="#about"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
@@ -87,11 +80,25 @@ export default function Header() {
                 About
               </Link>
               <Link
-                href="#contact"
+                href="#blog"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+               Blog
+              </Link>
+              <Link
+                href="#career"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Career
+              </Link>
+                 <Link
+                href="#ai-agent"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                AI agent
               </Link>
               <div className="pt-4">
                 <Link
