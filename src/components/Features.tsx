@@ -36,7 +36,7 @@ export default function Features(): JSX.Element {
 
       <div className="">
                 <svg
-            className="pointer-events-none absolute inset-0 -z-10 w-full h-[200vh] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] object-cover"
+            className="pointer-events-none absolute inset-0 -z-10 w-full h-[200vh] sm:h-[100vh] md:h-[100vh] lg:h-[150vh] object-cover"
             viewBox="0 0 1920 1024"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
