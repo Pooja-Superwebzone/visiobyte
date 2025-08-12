@@ -1,11 +1,12 @@
 
 import Image from "next/image";
 import circles from "@/components/assets/circles.svg";
-import Sectionsvg from "@/components/assets/section.svg";
+import circles1 from "@/components/assets/circles.png";
+import Sectionsvg from "@/components/assets/section.png";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden flex items-center justify-center">
+    <section className="relative min-h-[70vh] md:min-h-screen overflow-hidden flex items-center justify-center">
       <div className="relative z-20 mx-auto px-4 pt-16 pb-10 sm:pt-24 sm:pb-12 lg:pt-28">
         <h1 className="text-center font-inter font-bold leading-tight text-black
                        text-[clamp(22px,6vw,56px)]">
@@ -50,16 +51,31 @@ export default function Hero() {
       </div>
 
       {/* background circles – fill container, scale by viewport */}
-      <Image
-        src={circles}
-        alt=""
-        aria-hidden="true"
-        priority
-        fill
-        sizes="100vw"
+      <div
         className="pointer-events-none absolute inset-0 -z-10 opacity-[0.12]"
-        style={{ objectFit: "contain" }}
-      />
+        aria-hidden="true"
+      >
+        <svg
+          width="992"
+          height="820"
+          viewBox="0 0 992 820"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style={{ width: "100%", height: "100%", objectFit: "contain" }}
+        >
+          <circle opacity="0.9" cx="496" cy="324" r="111.5" stroke="#666468" />
+          <circle opacity="0.8" cx="496" cy="324" r="159.5" stroke="#666468" />
+          <circle opacity="0.7" cx="496" cy="324" r="207.5" stroke="#666468" />
+          <circle opacity="0.6" cx="496" cy="324" r="255.5" stroke="#666468" />
+          <circle opacity="0.5" cx="496" cy="324" r="303.5" stroke="#666468" />
+          <circle opacity="0.4" cx="496" cy="324" r="351.5" stroke="#666468" />
+          <circle opacity="0.3" cx="496" cy="324" r="399.5" stroke="#666468" />
+          <circle opacity="0.2" cx="496" cy="324" r="447.5" stroke="#666468" />
+          <circle opacity="0.1" cx="496" cy="324" r="495.5" stroke="#666468" />
+          <circle cx="496" cy="324" r="63.5" stroke="#666468" />
+        </svg>
+      </div>
+
     </section>
   );
 }

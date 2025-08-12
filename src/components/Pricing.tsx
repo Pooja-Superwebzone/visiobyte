@@ -1,4 +1,3 @@
-import svgUrl from "@/components/assets/Svgurl.svg";
 
 export default function Pricing() {
   return (

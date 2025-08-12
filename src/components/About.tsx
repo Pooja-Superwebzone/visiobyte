@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Image5 from "@/components/assets/image5.svg";
-import Image245 from "@/components/assets/Image245.svg";
-import Ipade from "@/components/assets/ipad.svg";
-import image8 from "@/components/assets/image8.svg";
-import blure from "@/components/assets/blur.svg";
-import Arrow from "@/components/assets/arrow.svg";
+import Image5 from "@/components/assets/image5.png";
+import Image245 from "@/components/assets/Image245.png";
+import Ipade from "@/components/assets/ipad.png";
+import image8 from "@/components/assets/image8.png";
+import blure from "@/components/assets/blur.png";
+import Arrow from "@/components/assets/arrow.png";
 
 export default function About() {
    const cards = [

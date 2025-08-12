@@ -34,7 +34,7 @@ export default function Contact() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Let's discuss how VisioByte can transform your business with AI-powered visual intelligence.
+            Let&apos;s discuss how VisioByte can transform your business with AI-powered visual intelligence.
           </p>
         </div>
 
@@ -134,7 +134,7 @@ export default function Contact() {
                 <div>
                   <h4 className="text-lg font-semibold mb-2">Email</h4>
                   <p className="text-gray-300">hello@visiobyte.com</p>
-                  <p className="text-gray-400 text-sm">We'll respond within 24 hours</p>
+                  <p className="text-gray-400 text-sm">We&apos;ll respond within 24 hours</p>
                 </div>
               </div>
 

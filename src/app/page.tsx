@@ -5,8 +5,6 @@ import {
   Solutions,
   About,
   Pricing,
-  Demo,
-  Contact,
   Footer
 } from '@/components';
 

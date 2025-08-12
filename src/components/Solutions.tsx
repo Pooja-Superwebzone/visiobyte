@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Imagemain from "@/components/assets/Image.svg";
+import Imagemain from "@/components/assets/Image.png";
 
 export default function Solutions() {
   return (
