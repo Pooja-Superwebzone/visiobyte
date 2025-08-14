@@ -17,6 +17,7 @@ export default function Solutions() {
                 className="
                   w-full h-auto
                   aspect-[4/3] object-cover
+                  hover:scale-105 transition-all duration-300 ease-out
                   md:aspect-auto md:w-[620px] md:h-[560px]
                 "
               />

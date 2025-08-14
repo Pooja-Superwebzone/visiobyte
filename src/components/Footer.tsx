@@ -12,11 +12,11 @@ import mail from "@/components/assets/mail.png";
 import phone from "@/components/assets/phone.png";
 
 const socials: ReadonlyArray<{ name: string; src: StaticImageData; href: string }> = [
-  { name: 'LinkedIn',  src: LinkedinIcon,  href: '#' },
+  { name: 'LinkedIn',  src: LinkedinIcon,  href: 'https://www.linkedin.com/company/visiobyteindia' },
   { name: 'Facebook',  src: FacebookIcon,  href: '#' },
-  { name: 'X',         src: TwitterIcon,   href: '#' },
-  { name: 'Instagram', src: InstagramIcon, href: '#' },
-  { name: 'Dribbble',  src: DribbbleIcon,  href: '#' },
+  { name: 'X',         src: TwitterIcon,   href: 'https://x.com/Visiobyteindia' },
+  { name: 'Instagram', src: InstagramIcon, href: 'https://www.instagram.com/visiobyte.india/' },
+  { name: 'Dribbble',  src: DribbbleIcon,  href: 'https://dribbble.com/visiobyte' },
   { name: 'Behance',   src: BehanceIcon,   href: '#' },
 ];
 
@@ -102,9 +102,11 @@ export default function Footer() {
                    {socials.map(({ name, src, href }) => (
                     <a
                        key={name}
-                      href="#"
+                      href={href}
                       aria-label={name}
                       className="group inline-flex h-[40px] w-[40px] items-center justify-center"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <Image src={src} alt={name} className="h-[40px] w-[40px] opacity-90 group-hover:opacity-100" />
                     </a>

@@ -49,7 +49,7 @@ export default function About() {
         <Image
           src={blure}
           alt="Gradient Glow"
-          className="pointer-events-none absolute -top-20 right-0 z-0 blur-lg"
+          className=" pointer-events-none absolute -top-20 right-0 z-0 blur-lg"
         />
         <h2 className="text-white font-medium text-[28px] sm:text-[40px] md:text-[56px] lg:text-[72px] xl:text-[88px] pt-6 leading-[1.08]">
           Our Craft in Action
@@ -75,7 +75,7 @@ export default function About() {
                     <Image
                       src={c.image}
                       alt={`${c.title} preview`}
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="hover:scale-105 transition-all duration-300 ease-out absolute inset-0 h-full w-full object-cover"
                     />
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function About() {
                     <Image
                       src={c.image}
                       alt={`${c.title} preview`}
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="hover:scale-105 transition-all duration-300 ease-out absolute inset-0 h-full w-full object-cover"
                     />
                   </div>
                 </div>

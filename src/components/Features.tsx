@@ -96,9 +96,9 @@ export default function Features(): JSX.Element {
               </p>
               <a
                 href="#book"
-                className="inline-flex items-center justify-center rounded-[12px] bg-[#9331F4]
+                className="inline-flex items-center justify-center rounded-[16px] bg-[#9331F4]
                            px-6 py-3 text-sm md:text-[15px] font-bold text-white
-                           border-2 border-[#e2c9ff] shadow-[inset_0_-2px_0_rgba(0,0,0,0.1)]
+                           border-4 border-[#e2c9ff] shadow-[inset_0_-2px_0_rgba(0,0,0,0.1)]
                            hover:brightness-105 active:brightness-95 transition"
               >
                 BOOK A CALL

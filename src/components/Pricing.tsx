@@ -4,7 +4,7 @@ export default function Pricing() {
     <section className="relative px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
       <div
         className="relative mx-auto  overflow-hidden rounded-[38.4px] bg-cover bg-center
-                   min-h-[320px] sm:min-h-[420px] lg:min-h-[540px]"
+                   min-h-[240px] sm:min-h-[240px] lg:min-h-[240px]"
         style={{ backgroundImage: `url(./Svgurl.svg)` }}
       >
         <div
