@@ -2,8 +2,6 @@
 
 
 import React, { JSX } from "react";
-import Image from "next/image";
-import Services from "@/components/assets/Services.svg";
 import { SvgImages } from "./SVG/SvgImages";
 
 type IconKind = "code" | "pen";

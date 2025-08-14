@@ -20,7 +20,7 @@ export default function HeaderUL() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 2000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);

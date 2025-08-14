@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Downloads\vbite\src\app\page.tsx
+// File: D:\Client_project\2025\visiobyte\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

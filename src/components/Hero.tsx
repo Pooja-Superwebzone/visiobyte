@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   const color = "#666468";
-  const speed = 1;
+
   const strokeWidth = 1;
 
   const rings = [
@@ -22,17 +22,50 @@ export default function Hero() {
     { r: 63.5, opacity: 1 },
   ];
 
-  const dur = (base: number) => base / Math.max(0.25, speed);
+  const container = {
+      hidden: { opacity: 0 },
+      show: {
+        opacity: 1,
+        transition: {
+          staggerChildren: 0.05, // FAST word-by-word
+        },
+      },
+    };
 
+    const wordVariant = {
+      hidden: { y: 20, opacity: 0 },
+      show: {
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring" as const,
+          stiffness: 100,
+          damping: 12,
+        },
+      },
+    };
+
+    const title =
+      "Driving Next-Gen Innovation with Intelligent Digital Transformation";
   return (
     <section className="relative min-h-[70vh] md:min-h-screen overflow-hidden flex items-center justify-center">
       <div className="relative z-20 mx-auto px-4 pt-16 pb-10 sm:pt-24 sm:pb-12 lg:pt-28">
-        <h1 className="text-center font-inter font-bold leading-tight text-black
-                       text-[clamp(22px,6vw,56px)]">
-          Driving Next-Gen Innovation with{" "}
-          <br className="hidden sm:block" />
-          Intelligent Digital Transformation
-        </h1>
+        <motion.h1
+            className="text-center w-full mt-14 md:mt-0 md:w-[80%] mx-auto  font-inter font-bold leading-tight text-black text-[clamp(22px,6vw,56px)]"
+            variants={container}
+            initial="hidden"
+            animate="show"
+          >
+            {title.split(" ").map((word, i) => (
+              <motion.span
+                key={i}
+                variants={wordVariant}
+                className="inline-block mr-2"
+              >
+                {word}
+              </motion.span>
+            ))}
+          </motion.h1>
 
         <p className="mx-auto mt-4 max-w-3xl text-center font-semibold text-[#8E8E93]
                       text-[clamp(12px,3.6vw,19px)]">
@@ -40,11 +73,8 @@ export default function Hero() {
           solutions tailored for your success.
         </p>
 
-        {/* CTA with Visible Ripple Effect */}
         <div className="pt-8 sm:pt-10 flex justify-center w-full">
           <div className="relative inline-block">
-      
-            {/* Main Button */}
             <motion.a
               href="#contact"
               className="relative inline-flex items-center justify-center rounded-2xl 
@@ -56,7 +86,7 @@ export default function Hero() {
                         active:brightness-95 
                         transition-all duration-300 ease-out
                         z-10"
-              whileTap={{ scale: 0.1 }} // fixed from 0.1 → small press effect
+              whileTap={{ scale: 0.1 }} 
             >
               Consult Our Experts
             </motion.a>
