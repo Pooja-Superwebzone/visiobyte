@@ -382,7 +382,7 @@ function Features() {
                                     fillOpacity: "0.08"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Features.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 44,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
@@ -393,18 +393,18 @@ function Features() {
                                         "stroke-opacity": "0.05"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Features.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Features.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Features.tsx",
-                            lineNumber: 45,
+                            lineNumber: 43,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -422,7 +422,7 @@ function Features() {
                                             "stop-color": "#212730"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Features.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 52,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -430,7 +430,7 @@ function Features() {
                                             "stop-color": "#212730"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Features.tsx",
-                                            lineNumber: 55,
+                                            lineNumber: 53,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -439,13 +439,13 @@ function Features() {
                                             "stop-opacity": "0"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Features.tsx",
-                                            lineNumber: 56,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Features.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
@@ -456,12 +456,12 @@ function Features() {
                                         fill: "white"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Features.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Features.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
@@ -472,29 +472,29 @@ function Features() {
                                         fill: "white"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Features.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Features.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Features.tsx",
-                            lineNumber: 52,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Features.tsx",
-                    lineNumber: 38,
+                    lineNumber: 36,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Features.tsx",
-                lineNumber: 37,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,7 +508,7 @@ function Features() {
                                 children: "SERVICES"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 70,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -516,7 +516,7 @@ function Features() {
                                 children: "Service that empowers your business with future clarity"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 74,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -524,13 +524,13 @@ function Features() {
                                 children: "Future-ready design and engineering solutions to elevate your product. Trusted by innovators to craft seamless, scalable, and standout digital experiences."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 78,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Features.tsx",
-                        lineNumber: 69,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -542,7 +542,7 @@ function Features() {
                                 items: dev
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 86,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ServiceCard, {
@@ -551,13 +551,13 @@ function Features() {
                                 items: design
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 87,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Features.tsx",
-                        lineNumber: 85,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -572,7 +572,7 @@ function Features() {
                                         children: "In search of cutting-edge design, reliable code, or both? Visiobyte delivers."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Features.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -581,35 +581,35 @@ function Features() {
                                         children: "BOOK A CALL"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Features.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 93,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Features.tsx",
-                            lineNumber: 92,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Features.tsx",
-                        lineNumber: 91,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Features.tsx",
-                lineNumber: 68,
+                lineNumber: 66,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Features.tsx",
-        lineNumber: 35,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 }
@@ -625,7 +625,7 @@ const ServiceCard = ({ title, icon, items })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/src/components/Features.tsx",
-                        lineNumber: 119,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -634,24 +634,24 @@ const ServiceCard = ({ title, icon, items })=>{
                             imageName: "CodeIcon"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Features.tsx",
-                            lineNumber: 122,
+                            lineNumber: 120,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SVG$2f$SvgImages$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SvgImages"], {
                             imageName: "PenIcon"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Features.tsx",
-                            lineNumber: 124,
+                            lineNumber: 122,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Features.tsx",
-                        lineNumber: 120,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Features.tsx",
-                lineNumber: 118,
+                lineNumber: 116,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -668,7 +668,7 @@ const ServiceCard = ({ title, icon, items })=>{
                                 children: label
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 139,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -677,29 +677,29 @@ const ServiceCard = ({ title, icon, items })=>{
                                     imageName: "ArrowNE"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Features.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 146,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Features.tsx",
-                                lineNumber: 147,
+                                lineNumber: 145,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, label, true, {
                         fileName: "[project]/src/components/Features.tsx",
-                        lineNumber: 132,
+                        lineNumber: 130,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/components/Features.tsx",
-                lineNumber: 130,
+                lineNumber: 128,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Features.tsx",
-        lineNumber: 116,
+        lineNumber: 114,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1475,10 +1475,10 @@ function Pricing() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative mx-auto max-w-4xl text-center px-4 sm:px-8 py-16 sm:py-20 lg:py-24",
+                    className: "flex flex-col relative mx-auto max-w-4xl text-center px-4 sm:px-8 py-12 sm:py-20 lg:py-24 gap-6 sm:gap-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-3xl sm:text-5xl lg:text-6xl xl:text-[55px] font-extrabold tracking-tight   bg-clip-text text-transparent",
+                            className: "text-2xl xs:text-3xl sm:text-5xl lg:text-6xl xl:text-[55px] font-extrabold tracking-tight   bg-clip-text text-transparent leading-tight sm:leading-snug -mb-2 sm:-mb-4",
                             style: {
                                 background: 'radial-gradient(circle, #000000 0%, #000000 50%, rgba(0,0,0,0.3) 100%)',
                                 WebkitBackgroundClip: 'text',
@@ -1490,46 +1490,38 @@ function Pricing() {
                                     className: "hidden sm:block"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Pricing.tsx",
-                                    lineNumber: 46,
-                                    columnNumber: 13
+                                    lineNumber: 47,
+                                    columnNumber: 5
                                 }, this),
                                 "We’ll build the solution."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Pricing.tsx",
                             lineNumber: 36,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mx-auto mt-5 h-[2px] w-56 max-w-full"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Pricing.tsx",
-                            lineNumber: 51,
-                            columnNumber: 11
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mx-auto mt-4 max-w-2xl text-[16px] sm:text-[16px] text-[#545058]",
+                            className: "mx-auto max-w-2xl text-sm sm:text-base text-[#545058] leading-relaxed px-2 sm:px-0",
                             children: "Leverage VisioByte’s agile solutions to design, develop, and scale secure digital products that meet compliance and win customer confidence."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Pricing.tsx",
-                            lineNumber: 53,
-                            columnNumber: 11
+                            lineNumber: 51,
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-7 sm:mt-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#book-call",
-                                className: "inline-flex items-center justify-center rounded-xl px-6 py-3 lg:text-[24px] md:text-sm  font-semibold text-white bg-[#9331F4]",
+                                className: "inline-flex items-center justify-center rounded-xl px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base lg:text-[24px] font-semibold text-white bg-[#9331F4] transition-colors duration-200 hover:bg-[#7a28cc]",
                                 children: "BOOK A CALL"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Pricing.tsx",
-                                lineNumber: 59,
-                                columnNumber: 13
+                                lineNumber: 57,
+                                columnNumber: 5
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Pricing.tsx",
-                            lineNumber: 58,
-                            columnNumber: 11
+                            lineNumber: 56,
+                            columnNumber: 3
                         }, this)
                     ]
                 }, void 0, true, {

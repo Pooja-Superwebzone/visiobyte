@@ -32,38 +32,37 @@ export default function Pricing() {
 
 
         {/* Content */}
-        <div className="relative mx-auto max-w-4xl text-center px-4 sm:px-8 py-16 sm:py-20 lg:py-24">
-          <h1
-            className="text-3xl sm:text-5xl lg:text-6xl xl:text-[55px] font-extrabold tracking-tight
-                       bg-clip-text text-transparent"
-            style={{
-              background: 'radial-gradient(circle, #000000 0%, #000000 50%, rgba(0,0,0,0.3) 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}
-          >
-            Bring us your challenge.
-            <br className="hidden sm:block" />
-            We’ll build the solution.
-          </h1>
+        <div className="flex flex-col relative mx-auto max-w-4xl text-center px-4 sm:px-8 py-12 sm:py-20 lg:py-24 gap-6 sm:gap-10">
+  <h1
+    className="text-2xl xs:text-3xl sm:text-5xl lg:text-6xl xl:text-[55px] font-extrabold tracking-tight
+               bg-clip-text text-transparent leading-tight sm:leading-snug -mb-2 sm:-mb-4"
+    style={{
+      background:
+        'radial-gradient(circle, #000000 0%, #000000 50%, rgba(0,0,0,0.3) 100%)',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+    }}
+  >
+    Bring us your challenge.
+    <br className="hidden sm:block" />
+    We’ll build the solution.
+  </h1>
 
+  <p className="mx-auto max-w-2xl text-sm sm:text-base text-[#545058] leading-relaxed px-2 sm:px-0">
+    Leverage VisioByte’s agile solutions to design, develop, and scale secure
+    digital products that meet compliance and win customer confidence.
+  </p>
 
-          <div className="mx-auto mt-5 h-[2px] w-56 max-w-full" />
+  <div>
+    <a
+      href="#book-call"
+      className="inline-flex items-center justify-center rounded-xl px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base lg:text-[24px] font-semibold text-white bg-[#9331F4] transition-colors duration-200 hover:bg-[#7a28cc]"
+    >
+      BOOK A CALL
+    </a>
+  </div>
+</div>
 
-          <p className="mx-auto mt-4 max-w-2xl text-[16px] sm:text-[16px] text-[#545058]">
-            Leverage VisioByte’s agile solutions to design, develop, and scale secure digital
-            products that meet compliance and win customer confidence.
-          </p>
-
-          <div className="mt-7 sm:mt-8">
-            <a
-              href="#book-call"
-              className="inline-flex items-center justify-center rounded-xl px-6 py-3 lg:text-[24px] md:text-sm  font-semibold text-white bg-[#9331F4]"
-            >
-              BOOK A CALL
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );

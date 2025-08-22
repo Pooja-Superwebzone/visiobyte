@@ -42,7 +42,7 @@ export default function Header() {
           <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-[#9331F4] transition-colors"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {isMenuOpen ? (
@@ -60,42 +60,42 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-100">
               <Link
                 href="#features"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="block px-3 py-2 text-gray-700 hover:text-[#9331F4] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 href="#solutions"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="block px-3 py-2 text-gray-700 hover:text-[#9331F4] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Our Work
               </Link>
               <Link
                 href="#about"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="block px-3 py-2 text-gray-700 hover:text-[#9331F4] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
                 href="#blog"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="block px-3 py-2 text-gray-700 hover:text-[#9331F4] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link
                 href="#career"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="block px-3 py-2 text-gray-700 hover:text-[#9331F4] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Career
               </Link>
               <Link
                 href="#ai-agent"
-                className="block px-3 py-2 hover:text-blue-600 transition-colors font-medium"
+                className="block px-3 py-2 hover:text-[#9331F4] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <span>AI Agent</span>
