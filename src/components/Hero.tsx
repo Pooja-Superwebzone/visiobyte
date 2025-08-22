@@ -56,7 +56,7 @@ export default function Hero() {
                         active:brightness-95 
                         transition-all duration-300 ease-out
                         z-10"
-              whileTap={{ scale: 0.1 }} // fixed from 0.1 → small press effect
+              whileTap={{ scale: 0.8 }} // subtle press effect
             >
               Consult Our Experts
             </motion.a>

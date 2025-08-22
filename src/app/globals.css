@@ -7,4 +7,6 @@
   font-style: normal;
 }
 
-
+::selection {
+  background: #9331f44d;
+}

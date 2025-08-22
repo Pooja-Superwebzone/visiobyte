@@ -3036,6 +3036,10 @@
   font-style: normal;
 }
 
+::selection {
+  background: rgba(147, 49, 244, .3);
+}
+
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;

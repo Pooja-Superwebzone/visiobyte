@@ -344,7 +344,7 @@ function HeaderUL() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const timer = setTimeout(()=>{
             setIsVisible(true);
-        }, 2000);
+        }, 500);
         return ()=>clearTimeout(timer);
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -365,8 +365,8 @@ function HeaderUL() {
                         y: -6
                     },
                     transition: {
-                        delay: isVisible ? 0.05 * i : 0,
-                        duration: 0.25
+                        delay: isVisible ? 0.02 * i : 0,
+                        duration: 0.15
                     },
                     onMouseEnter: ()=>isVisible && setHovered(i),
                     onMouseLeave: ()=>isVisible && setHovered(null),
@@ -504,19 +504,14 @@ function HeaderUL() {
                                         y: hovered === i ? -100 : 0
                                     },
                                     transition: {
-                                        duration: 0.2,
-                                        ease: [
-                                            0.68,
-                                            -0.55,
-                                            0.265,
-                                            1.55
-                                        ]
+                                        duration: 0.6,
+                                        ease: "easeInOut"
                                     },
                                     children: item.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/uiCompontents/HeaderUl.tsx",
                                     lineNumber: 118,
-                                    columnNumber: 19
+                                    columnNumber: 20
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                                     className: "absolute top-0 left-0 right-0 block w-full min-w-[75px] leading-[1.2] text-center",
@@ -524,19 +519,14 @@ function HeaderUL() {
                                         y: hovered === i ? 0 : 100
                                     },
                                     transition: {
-                                        duration: 0.5,
-                                        ease: [
-                                            0.68,
-                                            -0.55,
-                                            0.265,
-                                            1.55
-                                        ]
+                                        duration: 0.8,
+                                        ease: "easeInOut"
                                     },
                                     children: item.altText
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/uiCompontents/HeaderUl.tsx",
                                     lineNumber: 132,
-                                    columnNumber: 19
+                                    columnNumber: 20
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -1002,7 +992,7 @@ function Hero() {
                                 href: "#contact",
                                 className: "relative inline-flex items-center justify-center rounded-2xl    bg-gradient-to-r from-[#9331F4] via-[#8B2AEF] to-[#7A20D9]   shadow-xl shadow-purple-500/40   px-5 py-2 md:px-10 md:py-4    text-[clamp(14px,3.2vw,18px)] font-bold text-white tracking-wide   hover:scale-105 hover:shadow-purple-500/60 hover:brightness-110    active:brightness-95    transition-all duration-300 ease-out   z-10",
                                 whileTap: {
-                                    scale: 0.1
+                                    scale: 0.8
                                 },
                                 children: "Consult Our Experts"
                             }, void 0, false, {

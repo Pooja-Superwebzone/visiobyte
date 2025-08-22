@@ -20,7 +20,7 @@ export default function HeaderUL() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 2000);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -34,7 +34,7 @@ export default function HeaderUL() {
             className="relative overflow-hidden"
             initial={{ opacity: 0, y: -6 }}
             animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: -6 }}
-            transition={{ delay: isVisible ? 0.05 * i : 0, duration: 0.25 }}
+            transition={{ delay: isVisible ? 0.02 * i : 0, duration: 0.15 }}
             onMouseEnter={() => isVisible && setHovered(i)}
             onMouseLeave={() => isVisible && setHovered(null)}
           >
@@ -114,33 +114,33 @@ export default function HeaderUL() {
                 </>
               ) : (
                 <div className="relative overflow-hidden w-full">
-                  {/* Original text */}
-                  <motion.span
-                    className="block w-full min-w-[75px] leading-[1.2] text-center"
-                    animate={{
-                      y: hovered === i ? -100 : 0
-                    }}
-                    transition={{
-                      duration: 0.2,
-                      ease: [0.68, -0.55, 0.265, 1.55]
-                    }}
-                  >
-                    {item.label}
-                  </motion.span>
-                  
-                  {/* Alternative text */}
-                  <motion.span
-                    className="absolute top-0 left-0 right-0 block w-full min-w-[75px] leading-[1.2] text-center"
-                    animate={{
-                      y: hovered === i ? 0 : 100
-                    }}
-                    transition={{
-                      duration: 0.5,
-                      ease: [0.68, -0.55, 0.265, 1.55]
-                    }}
-                  >
-                    {item.altText}
-                  </motion.span>
+                                     {/* Original text */}
+                   <motion.span
+                     className="block w-full min-w-[75px] leading-[1.2] text-center"
+                     animate={{
+                       y: hovered === i ? -100 : 0
+                     }}
+                     transition={{
+                       duration: 0.6,
+                       ease: "easeInOut"
+                     }}
+                   >
+                     {item.label}
+                   </motion.span>
+                   
+                   {/* Alternative text */}
+                   <motion.span
+                     className="absolute top-0 left-0 right-0 block w-full min-w-[75px] leading-[1.2] text-center"
+                     animate={{
+                       y: hovered === i ? 0 : 100
+                     }}
+                     transition={{
+                       duration: 0.8,
+                       ease: "easeInOut"
+                     }}
+                   >
+                     {item.altText}
+                   </motion.span>
                 </div>
               )}
             </Link>
