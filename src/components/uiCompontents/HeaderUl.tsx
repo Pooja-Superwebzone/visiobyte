@@ -121,7 +121,7 @@ export default function HeaderUL() {
                        y: hovered === i ? -100 : 0
                      }}
                      transition={{
-                       duration: 0.6,
+                       duration: 0.3,
                        ease: "easeInOut"
                      }}
                    >
@@ -135,7 +135,7 @@ export default function HeaderUL() {
                        y: hovered === i ? 0 : 100
                      }}
                      transition={{
-                       duration: 0.8,
+                       duration: 0.3,
                        ease: "easeInOut"
                      }}
                    >

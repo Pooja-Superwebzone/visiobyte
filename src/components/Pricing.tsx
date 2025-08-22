@@ -1,7 +1,7 @@
 
 export default function Pricing() {
   return (
-    <section className="relative px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+    <section className="relative p-4 sm:p-6 lg:p-8 ">
       <div
         className="relative mx-auto  overflow-hidden rounded-[38.4px] bg-cover bg-center
                    min-h-[240px] sm:min-h-[240px] lg:min-h-[240px]"

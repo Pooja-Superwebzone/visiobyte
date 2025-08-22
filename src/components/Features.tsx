@@ -1,8 +1,11 @@
 
 
 
-import React, { JSX } from "react";
+"use client";
+
+import React, { JSX, useState } from "react";
 import { SvgImages } from "./SVG/SvgImages";
+import { motion } from "framer-motion";
 
 type IconKind = "code" | "pen";
 
@@ -110,18 +113,65 @@ export default function Features(): JSX.Element {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, icon, items }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const getAltText = (title: string) => {
+    return title === "Development" ? "Development" : "Design";
+  };
+
   return (
-    <article className="rounded-3xl bg-white/90 backdrop-blur-md ring-1 ring-zinc-200 shadow-[0_12px_60px_-20px_rgba(146,64,255,0.25)] p-5 sm:p-6 md:p-7">
+    <article 
+      className="rounded-3xl bg-white/90 backdrop-blur-md ring-1 ring-zinc-200 shadow-[0_12px_60px_-20px_rgba(146,64,255,0.25)] p-5 sm:p-6 md:p-7"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       {/* Header */}
       <div className="flex items-center justify-between gap-4">
-        <h3 className="font-bold text-gray-900 text-[clamp(18px,3.8vw,22px)]">{title}</h3>
-        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-[#9331F4] text-white">
+        <div className="relative overflow-hidden">
+          {/* Original text */}
+          <motion.h3 
+            className="font-bold text-gray-900 text-[clamp(18px,3.8vw,22px)]"
+            animate={{
+              y: isHovered ? -100 : 0
+            }}
+            transition={{
+              duration: 0.4,
+              ease: "easeInOut"
+            }}
+          >
+            {title}
+          </motion.h3>
+          
+          {/* Alternative text */}
+          <motion.h3 
+            className="absolute top-0 left-0 font-bold text-gray-900 text-[clamp(18px,3.8vw,22px)]"
+            animate={{
+              y: isHovered ? 0 : 100
+            }}
+            transition={{
+              duration: 0.4,
+              ease: "easeInOut"
+            }}
+          >
+            {getAltText(title)}
+          </motion.h3>
+        </div>
+        <motion.span 
+          className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-[#9331F4] text-white"
+          animate={{
+            backgroundColor: isHovered ? "#000000" : "#9331F4"
+          }}
+          transition={{
+            duration: 0.3,
+            ease: "easeInOut"
+          }}
+        >
           {icon === "code" ? (
             <SvgImages imageName="CodeIcon" />
           ) : (
             <SvgImages imageName="PenIcon" />
           )}
-        </span>
+        </motion.span>
       </div>
 
       {/* List */}

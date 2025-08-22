@@ -70,12 +70,12 @@ export default function About() {
                 className="md:col-span-2 grid grid-cols-1 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60 md:grid-cols-2"
               >
                 {/* IMAGE (left on md+, top on mobile) */}
-                <div className="relative">
+                <div className="relative overflow-hidden">
                   <div className="relative aspect-[16/9] md:aspect-auto md:h-[432px]">
                     <Image
                       src={c.image}
                       alt={`${c.title} preview`}
-                      className="hover:scale-105 transition-all duration-300 ease-out absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 hover:scale-[1.03]"
                     />
                   </div>
                 </div>
@@ -145,12 +145,12 @@ export default function About() {
                 </div>
 
                 {/* IMAGE (right) */}
-                <div className="relative">
+                <div className="relative overflow-hidden">
                   <div className="relative aspect-[16/9] md:aspect-auto md:h-[432px]">
                     <Image
                       src={c.image}
                       alt={`${c.title} preview`}
-                      className="hover:scale-105 transition-all duration-300 ease-out absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 hover:scale-[1.03]"
                     />
                   </div>
                 </div>
