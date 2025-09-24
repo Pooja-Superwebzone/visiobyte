@@ -1,19 +1,14 @@
-// next.config.ts
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+// next.config.js
+module.exports = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
   webpack(config) {
     // 1) Exclude .svg from the existing asset rule
     const assetRule = config.module.rules.find(
-      // Next’s rule usually tests many image types including .svg
-      // @ts-ignore - the type is not super strict here
-      (rule) => rule?.test?.test?.('.svg')
+      (rule) => rule && rule.test && rule.test.test && rule.test.test('.svg')
     );
     if (assetRule) {
-      // @ts-ignore
       assetRule.exclude = /\.svg$/i;
     }
 
@@ -23,9 +18,7 @@ const nextConfig: NextConfig = {
       use: [
         {
           loader: '@svgr/webpack',
-          options: {
-            icon: true, 
-          },
+          options: { icon: true },
         },
       ],
     });
@@ -33,5 +26,3 @@ const nextConfig: NextConfig = {
     return config;
   },
 };
-
-export default nextConfig;
